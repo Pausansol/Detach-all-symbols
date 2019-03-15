@@ -1,5 +1,5 @@
 ## Overview
-Easy detach symbols for Sketch app.
+Easy detach layers from symbols for Sketch app.
 
 ## Install
 
@@ -7,9 +7,9 @@ Easy detach symbols for Sketch app.
 
 ## Usage
 
-* If you want to detach all symbols from document press `Control + Command + O` or use the `Plugins` menu.
+* If you want to detach all document layers from symbols press `Control + Command + O` or use the `Plugins` menu.
 
-* If you want to detach all selected symbols press `Control + Command + P` or use the `Plugins` menu.
+* If you want to detach all selected layers from symbols press `Control + Command + P` or use the `Plugins` menu.
 
 * Enjoy
 
