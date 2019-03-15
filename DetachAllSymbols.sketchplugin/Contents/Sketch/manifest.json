@@ -1,0 +1,32 @@
+{
+  "author": "Pausansol",
+  "commands": [
+    {
+      "name": "Document symbols",
+      "identifier": "Document",
+      "shortcut": "ctrl command o",
+      "script": "script.js",
+      "handler": "detachDocumentSymbols",     
+    },
+    {
+      "name": "Selected symbols",
+      "identifier": "Selected",
+      "shortcut": "ctrl command p",
+      "script": "script.js",
+      "handler": "detachSelectedSymbols",     
+    },
+  ],
+  "menu": {
+    "title": "Detach from symbol",
+    "items": [
+      "Document",
+      "Selected"
+    ]
+  },
+  "name": "Sketch detach all symbols",
+  "version": "1.0.0",
+  "description": "Detach all document or selected symbols",
+  "authorEmail": "pausansol@gmail.com",
+  "appcast": "https://raw.githubusercontent.com/pausansol/sketchdetachsymbols/master/appcast.xml",
+  "compatibleVersion": "53",
+}
