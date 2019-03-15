@@ -3,7 +3,7 @@ Easy detach layers from symbols for Sketch app.
 
 ## Install
 
-* Download and install the `DetachAllSymbols.sketchplugin` zip file [here](https://github.com/Pausansol/Detach-all-symbols/releases/download/1.0.0/DetachAllSymbols.sketchplugin.zip). 
+* Download and install the `DetachAllSymbols.sketchplugin` zip file [here](https://github.com/Pausansol/Detach-all-symbols/releases/download/v1.0.0/DetachAllSymbols.sketchplugin.zip). 
 
 ## Usage
 
