@@ -3,8 +3,8 @@ const doc = sketch.getSelectedDocument()
 const pages = doc.pages
 
 // Search in document pages for symbols
-const inspectSelection = layers => {
-	layers.forEach(layer => {
+var inspectSelection = function(layers) {
+	layers.forEach(function(layer) {
 		if (layer.layers) {
 			inspectSelection(layer.layers)
 		}
@@ -19,15 +19,15 @@ const inspectSelection = layers => {
 }
 
 // Send all document layers to detach
-const detachDocumentSymbols = () => {
-	pages.forEach(page => {
+var detachDocumentSymbols = function() {
+	pages.forEach(function(page) {
 		inspectSelection(page.layers)
 	})
-	sketch.UI.message(`🎉 All document symbols have been detached 🎉`)
+	sketch.UI.message(`🎉 All document symbols have been detached 2 🎉`)
 }
 
 // Sends all selected layers to detach
-const detachSelectedSymbols = () => {
+var detachSelectedSymbols = function() {
 	inspectSelection(doc.selectedLayers.layers)
-	sketch.UI.message(`🎉 Selected symbols have been detached 🎉`)
+	sketch.UI.message(`🎉 Selected symbols have been detached 2 🎉`)
 }

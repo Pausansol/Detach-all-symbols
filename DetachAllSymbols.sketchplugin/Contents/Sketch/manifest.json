@@ -1,5 +1,7 @@
 {
-  "author": "Pausansol",
+  "name": "DetachAllSymbols",
+  "version": "1.0.0",
+  "description": "Detach all document or selected symbols",
   "commands": [
     {
       "name": "Document symbols",
@@ -17,16 +19,15 @@
     }
   ],
   "menu": {
-    "title": "Detach from symbol",
+    "title": "Detach all symbols",
     "items": [
       "Document",
       "Selected"
     ]
   },
-  "name": "Sketch detach all symbols",
-  "version": "1.0.0",
-  "description": "Detach all document or selected symbols",
+  "author": "Pausansol",
   "authorEmail": "pausansol@gmail.com",
   "appcast": "https://raw.githubusercontent.com/pausansol/sketchdetachsymbols/master/appcast.xml",
+  "disableCocoaScriptPreprocessor": true,
   "compatibleVersion": "53"
 }
