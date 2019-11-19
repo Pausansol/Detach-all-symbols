@@ -1,6 +1,6 @@
 {
   "name": "detach-all-symbols",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Detach all document or selected symbols",
   "repository": {
     "type": "git",
