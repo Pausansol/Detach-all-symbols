@@ -6,15 +6,15 @@
       "identifier": "Document",
       "shortcut": "ctrl command o",
       "script": "script.js",
-      "handler": "detachDocumentSymbols",     
+      "handler": "detachDocumentSymbols"
     },
     {
       "name": "Selected symbols",
       "identifier": "Selected",
       "shortcut": "ctrl command p",
       "script": "script.js",
-      "handler": "detachSelectedSymbols",     
-    },
+      "handler": "detachSelectedSymbols"
+    }
   ],
   "menu": {
     "title": "Detach from symbol",
@@ -28,5 +28,5 @@
   "description": "Detach all document or selected symbols",
   "authorEmail": "pausansol@gmail.com",
   "appcast": "https://raw.githubusercontent.com/pausansol/sketchdetachsymbols/master/appcast.xml",
-  "compatibleVersion": "53",
+  "compatibleVersion": "53"
 }
