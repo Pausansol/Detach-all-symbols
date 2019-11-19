@@ -23,11 +23,11 @@ var detachDocumentSymbols = function() {
 	pages.forEach(function(page) {
 		inspectSelection(page.layers)
 	})
-	sketch.UI.message(`🎉 All document symbols have been detached 2 🎉`)
+	sketch.UI.message(`🎉 All document symbols have been detached 🎉`)
 }
 
 // Sends all selected layers to detach
 var detachSelectedSymbols = function() {
 	inspectSelection(doc.selectedLayers.layers)
-	sketch.UI.message(`🎉 Selected symbols have been detached 2 🎉`)
+	sketch.UI.message(`🎉 Selected symbols have been detached 🎉`)
 }
