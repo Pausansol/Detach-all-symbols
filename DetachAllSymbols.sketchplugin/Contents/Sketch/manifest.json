@@ -29,5 +29,5 @@
   "authorEmail": "pausansol@gmail.com",
   "appcast": "https://raw.githubusercontent.com/pausansol/sketchdetachsymbols/master/appcast.xml",
   "disableCocoaScriptPreprocessor": true,
-  "compatibleVersion": "53"
+  "compatibleVersion": "60"
 }
