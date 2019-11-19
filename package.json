@@ -1,0 +1,20 @@
+{
+  "name": "detach-all-symbols",
+  "version": "1.0.0",
+  "description": "Detach all document or selected symbols",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pausansol/Detach-all-symbols.git"
+  },
+  "author": {
+    "name": "Pausansol",
+    "email": "pausansol@gmail.com",
+    "url": "https://github.com/Pausansol"
+  },
+  "contributors": [
+    {
+      "name": "silversonicaxel",
+      "url": "https://github.com/silversonicaxel"
+    }
+  ]
+}
